@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+
+  "name": "There I fixed skcollubs",
+  "version": "0.1.0",
+  "description": "There I fixed skcollubs",
+
+  "content_scripts": [{
+    "js": ["cnn.js"],
+    "matches": ["http://forum.fok.nl/*"]
+  }]
+}
