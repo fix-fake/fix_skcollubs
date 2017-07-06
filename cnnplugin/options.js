@@ -76,6 +76,8 @@ function restore_options() {
         misspellings: [
             'FraudNewsCNN',
             'CrapNewsNetwork',
+            'CNNFraudMedia',
+            'CNNisFakeNews',
         ]
     }, function(config) {
         config['misspellings'].forEach(function(misspelling) {
