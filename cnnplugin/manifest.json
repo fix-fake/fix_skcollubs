@@ -4,7 +4,10 @@
   "name": "There I fixed skcollubs",
   "version": "0.1.0",
   "description": "There I fixed skcollubs",
-
+  "options_page": "options.html",
+  "permissions": [
+    "storage"
+  ],
   "content_scripts": [{
     "js": ["cnn.js"],
     "matches": ["http://forum.fok.nl/*"]
